@@ -1,1 +1,3 @@
-
+---
+permalink: /index.htm
+---
