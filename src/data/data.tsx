@@ -18,7 +18,6 @@ import {
   ContactType,
   Hero,
   HomepageMeta,
-  PortfolioItem,
   SkillGroup,
   Social,
   TimelineItem,
@@ -178,7 +177,7 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: Timelineitem[] = [
+export const portfolioItems: TimelineItem[] = [
   {
     title: 'Achievements',
     content: <p>Professional and certified Scrum Master helping teams use agile methodology effectively.
