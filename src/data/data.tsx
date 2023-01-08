@@ -11,17 +11,6 @@ import {
 import GithubIcon from '../components/Icon/GithubIcon';
 import LinkedInIcon from '../components/Icon/LinkedInIcon';
 import heroImage from '../images/header-background.webp';
-import porfolioImage1 from '../images/portfolio/portfolio-1.jpg';
-import porfolioImage2 from '../images/portfolio/portfolio-2.jpg';
-import porfolioImage3 from '../images/portfolio/portfolio-3.jpg';
-import porfolioImage4 from '../images/portfolio/portfolio-4.jpg';
-import porfolioImage5 from '../images/portfolio/portfolio-5.jpg';
-import porfolioImage6 from '../images/portfolio/portfolio-6.jpg';
-import porfolioImage7 from '../images/portfolio/portfolio-7.jpg';
-import porfolioImage8 from '../images/portfolio/portfolio-8.jpg';
-import porfolioImage9 from '../images/portfolio/portfolio-9.jpg';
-import porfolioImage10 from '../images/portfolio/portfolio-10.jpg';
-import porfolioImage11 from '../images/portfolio/portfolio-11.jpg';
 import profilepic from '../images/profilepic.jpg';
 import {
   About,
@@ -39,8 +28,8 @@ import {
  * Page meta data
  */
 export const homePageMeta: HomepageMeta = {
-  title: 'React Resume Template',
-  description: "Example site built with Tim Baker's react resume template",
+  title: 'React Resume',
+  description: "Amy Garcia's resumewebsite built from Tim Baker's react resume template",
 };
 
 /**
@@ -189,55 +178,17 @@ export const skills: SkillGroup[] = [
 /**
  * Portfolio section
  */
-export const portfolioItems: PortfolioItem[] = [
+export const portfolioItems: Timelineitem[] = [
   {
-    title: 'Implented New Application Lifecycle Management solution',
-    description: 'Led the effort to migrate to the cloud version of Jira to manage all DBA, System Administrator, software development, and cybersecurity projects. Remain the lead JIRA administrator for the IT division including setting up site for over 200 IT colleagues ',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage1,
-  },
-  {
-    title: 'New Bill Design Software Implementation',
-    description: 'Led a team of developers to deploy new bill design solution.  Improved the customer Experience and addressed 91% of customer frustrations with previous bill design.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage2,
-  },
-  {
-    title: 'Fleet Management Implementation',
-    description: 'Led the design and implemnetation for new GPS solution integrated with Fieldwork IT systems',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage3,
-  },
-  {
-    title: 'SEO Marketing',
-    description: 'Highest performing marketing team using Search Engine Optimization-SEO during my MBA program.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage4,
-  },
-  {
-    title: 'Onboarding Content',
-    description: 'Created onboarding content, designed curriculum, and supervised new IT Project and Product Managers.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage5,
-  },
-  {
-    title: '10-year IT Roadmap',
-    description: 'Led the effort to create and strategically design a 10-year IT program roadmap with $50M budget.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage6,
-  },
-  {
-    title: 'Project title 7',
-    description: 'Give a short description of your project here.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage7,
-  },
-  {
-    title: 'Project title 8',
-    description: 'Give a short description of your project here.',
-    url: 'https://docs.google.com/document/d/1J67RZTmFaUWRbGxxdYSMIKJximzg8fZ7LAiSjDRsTdE/edit?usp=sharing',
-    image: porfolioImage8,
- 
+    title: 'Achievements',
+    content: <p>Professional and certified Scrum Master helping teams use agile methodology effectively.
+      Managed bill redesign project that improved 91% of customers' frustrations and successfully deployed new bill design to over 468,000 customers.
+      Jira administrator for the IT division that led effort to set up site for over 100 IT colleagues.
+      Implemented GPS Location solution ensuring safety for hundreds of linemen and technicians.
+      Deployed Smartsheet across four engineering divisions and trained hundreds of engineers.
+      Highest performing marketing team using Search Engine Optimization (SEO) during my MBA program.
+      Led the 10-year IT Program Roadmap effort with 50-million-dollar budget.
+      Led onboardng initiative for new Product Managers.</p>,
   },
 ];
 
@@ -249,7 +200,7 @@ export const education: TimelineItem[] = [
     date: 'May 2021',
     location: 'Lincoln Memorial University',
     title: 'Master of Business Administration, MBA',
-    content: <p>DI graduated with a 3.96 GPA and increased my business acumen, including business strategy, 
+    content: <p>I graduated with a 3.96 GPA and increased my business acumen, including business strategy, 
       operations management, corporate finance, leadership, communication, ethics, accounting and marketing, 
       as well as critical thinking and analytical skills.</p>,
   },
