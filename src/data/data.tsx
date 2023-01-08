@@ -38,7 +38,6 @@ export const SectionId = {
   Hero: 'hero',
   About: 'about',
   Contact: 'contact',
-  Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
   Stats: 'stats',
@@ -173,24 +172,6 @@ export const skills: SkillGroup[] = [
     ],
   },
 ];
-
-/**
- * Portfolio section
- */
-export const portfolioItems: TimelineItem[] = [
-  {
-    title: 'Achievements',
-    content: <p>Professional and certified Scrum Master helping teams use agile methodology effectively.
-      Managed bill redesign project that improved 91% of customers' frustrations and successfully deployed new bill design to over 468,000 customers.
-      Jira administrator for the IT division that led effort to set up site for over 100 IT colleagues.
-      Implemented GPS Location solution ensuring safety for hundreds of linemen and technicians.
-      Deployed Smartsheet across four engineering divisions and trained hundreds of engineers.
-      Highest performing marketing team using Search Engine Optimization (SEO) during my MBA program.
-      Led the 10-year IT Program Roadmap effort with 50-million-dollar budget.
-      Led onboardng initiative for new Product Managers.</p>,
-  },
-];
-
 /**
  * Resume section -- TODO: Standardize resume contact format or offer MDX
  */
@@ -201,7 +182,8 @@ export const education: TimelineItem[] = [
     title: 'Master of Business Administration, MBA',
     content: <p>I graduated with a 3.96 GPA and increased my business acumen, including business strategy, 
       operations management, corporate finance, leadership, communication, ethics, accounting and marketing, 
-      as well as critical thinking and analytical skills.</p>,
+      as well as critical thinking and analytical skills.
+      Highest performing marketing team using Search Engine Optimization (SEO) during my MBA program.</p>,
   },
   {
     date: 'May 2011',
@@ -226,6 +208,8 @@ export const experience: TimelineItem[] = [
         Led teams using Scrum, including daily standups, backlog management, and sprint retrospectives
         Led the 10-year IT Program Roadmap strategy with 50-million-dollar budget
         Created onboarding content, designed curriculum, and supervised new Project & Product Managers
+        Managed bill redesign project that improved 91% of customers' frustrations and successfully deployed new bill design to over 468,000 customers.
+        Implemented GPS Location solution ensuring safety for hundreds of linemen and technicians.
       </p>
     ),
   },
